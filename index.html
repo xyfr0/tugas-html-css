@@ -6,8 +6,25 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <div>
+      <div class="place-content-center" id="question">
+        <p>Manakah yang bukan termasuk tag HTML?</p>
+      </div>
+      <div class="grid grid-cols-2 gap-2" id="answer-choice">
+        <div class="border-1" id="answer-box" data-answer="wrong">
+          <p>A. &lt;article&gt;</p>
+        </div>
+        <div class="border-1" id="answer-box" data-answer="wrong">
+          <p>B. &lt;address&gt;</p>
+        </div>
+        <div class="border-1" id="answer-box" data-answer="correct">
+          <p>C. &lt;attach&gt;</p>
+        </div>
+        <div class="border-1" id="answer-box" data-answer="wrong">
+          <p>D. &lt;aside&gt;</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
